@@ -153,3 +153,26 @@ print(birthday_paradox(23))
 print(birthday_paradox(5))
 print(birthday_paradox(20))
 print(birthday_paradox(100))
+
+# Write a Python program that inputs a list of words, separated by whitespace, and outputs how many times each word
+# appears in the list. You need not worry about efficiency at this point, however, as this topic is something that
+# will be addressed later in this book.
+
+
+def count_words():
+    total_dict = {}
+    sentence = input("")
+    word = ""
+    for i in range(len(sentence)):
+        if sentence[i] == " ":
+            if word not in total_dict:
+                total_dict[word] = 0
+            total_dict[word] += 1
+            word = ""
+        else:
+            word += sentence[i]
+    return total_dict
+
+
+print(count_words())
+
