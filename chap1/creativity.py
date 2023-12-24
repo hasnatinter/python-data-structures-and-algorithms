@@ -279,4 +279,4 @@ def norm(v, p=False):
         return total
 
 
-# print(norm([1, 2, 3, 4], 3))
+
