@@ -1,4 +1,4 @@
-from creativity import *
+from reinforcement import *
 
 # 1- Maximum Element
 sampleList1 = [2, 5, 6, 9, 1, 3]
