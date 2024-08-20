@@ -1,4 +1,5 @@
 venv/*
 main.py
 .idea
-practice/*
+/practice/*
+__pycache__
